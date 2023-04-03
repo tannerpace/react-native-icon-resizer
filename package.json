@@ -1,0 +1,36 @@
+{
+  "name": "react-native-icon-resizer-android",
+  "version": "1.0.0",
+  "description": "A cli tool that opens a finder window and creates the icon for Android and installs it into your react-native android project",
+  "main": "bash resize.sh",
+  "scripts": {
+    "start": "bash resize.sh",
+    "test": "bash test-resizer.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannerpace/react-native-icon-resizer.git"
+  },
+  "keywords": [
+    "react-native",
+    "icon",
+    "android",
+    "resize",
+    "re-size",
+    "resizer",
+    "image",
+    "tool",
+    "png",
+    "resizeimage",
+    "resize-image",
+    "make-icon",
+    "resize-icon",
+    "resizeicon"
+  ],
+  "author": "Tanner Bleakley",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/tannerpace/react-native-icon-resizer/issues"
+  },
+  "homepage": "https://github.com/tannerpace/react-native-icon-resizer#readme"
+}

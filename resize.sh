@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Get the current date and time in YYYYMMDD_HHMMSS format
-datetime=$(date +"%Y%m%d_%H%M%S")
-
 # Open Finder at desktop and allow the user to select a PNG image
 echo "Please select a PNG image to resize for Android app icons"
 png_file=$(osascript -e 'tell application "Finder" to ¬
@@ -30,5 +27,6 @@ sips -Z 192 $png_file --out $target_dir/android/app/src/main/res/mipmap-xxxhdpi/
 
 # Move the resized images to the Android app icon directories
 echo "Moving resized images to Android app icon directories..."
+
 
 
