@@ -21,7 +21,8 @@ sips -Z 96 $png_file --out $target_dir/android/app/src/main/res/mipmap-xhdpi/ic_
 sips -Z 96 $png_file --out $target_dir/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
 sips -Z 192 $png_file --out $target_dir/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
 sips -Z 192 $png_file --out $target_dir/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
-
+sips -Z 512 $png_file --out $target_dir/android/app/src/main/res/mipmap-playstore/ic_launcher.png
+sips -Z 512 $png_file --out $target_dir/android/app/src/main/res/mipmap-playstore/ic_launcher_round.png
 
 
 
