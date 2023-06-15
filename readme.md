@@ -36,7 +36,7 @@ Follow these steps to make use of this awesome tool:
 
 ## What Does It Do?
 
-tHIS script takes the image you selected and creates multiple scaled versions of it, suitable for use as icons that show on the device.
+Its a script that takes the image you selected and creates multiple scaled versions of it, suitable for use as icons that show on the device.
 After creating these icons, the script will also update the relevant files within your project to use these newly created icons.
 
 This script is primarily targeted for the Android build and getting you on the play store fast!
