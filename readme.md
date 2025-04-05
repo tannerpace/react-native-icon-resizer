@@ -6,11 +6,10 @@ Welcome to the Image Resizer repository! This tool was designed with one goal in
 
 ## Quick Setup
 
-Follow these steps to make use of this awesome tool:
+Follow these steps to make use of this tool:
 
 1. **Clone this repository**
    
-   Use the following command in your terminal to clone this repository:
    ```bash
    git clone https://github.com/YourUserName/RepoName.git
    ```
@@ -18,7 +17,7 @@ Follow these steps to make use of this awesome tool:
 
 2. **Run the resize script**
    
-   Navigate into the cloned repository directory, and run the `resize.sh` script:
+   cd into the cloned directory, and run the `resize.sh` script:
    ```bash
    cd RepoName
    ./resize.sh
@@ -26,7 +25,7 @@ Follow these steps to make use of this awesome tool:
    
 3. **Select your image**
 
-   Upon running the script, you will be prompted to select an image from your system. Please navigate to your desired image and select it.
+   Upon running the script, you will be prompted to select an image from your system.  Navigate to your desired image and select it.
 
 4. **Select your React-Native project folder**
 
@@ -38,8 +37,6 @@ Follow these steps to make use of this awesome tool:
 
 Its a script that takes the image you selected and creates multiple scaled versions of it, suitable for use as icons that show on the device.
 After creating these icons, the script will also update the relevant files within your project to use these newly created icons.
-
-This script is primarily targeted for the Android build and getting you on the play store fast!
 
 ---
 
