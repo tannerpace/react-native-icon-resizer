@@ -40,3 +40,7 @@ After creating these icons, the script will also update the relevant files withi
 
 ---
 
+How to verify your computers rsa key
+```
+awk '{print $1}' ~/.android/adbkey.pub | openssl base64 -d | openssl md5 -c
+```
